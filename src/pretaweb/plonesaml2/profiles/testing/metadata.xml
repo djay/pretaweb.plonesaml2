@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<metadata>
+  <version>0001</version>
+  <dependencies>
+    <dependency>profile-pretaweb.plonesaml2:default</dependency>
+  </dependencies>
+</metadata>

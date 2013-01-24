@@ -29,8 +29,8 @@ setup(name='pretaweb.plonesaml2',
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
       keywords='',
-      author='',
-      author_email='',
+      author='Dylan Jay',
+      author_email='software@pretaweb.com',
       url='http://svn.plone.org/svn/collective/',
       license='gpl',
       packages=find_packages('src'),
@@ -41,6 +41,7 @@ setup(name='pretaweb.plonesaml2',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'dm.zope.saml2'
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
@@ -48,6 +49,6 @@ setup(name='pretaweb.plonesaml2',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["templer.localcommands"],
+#      setup_requires=["PasteScript"],
+#      paster_plugins=["templer.localcommands"],
       )
